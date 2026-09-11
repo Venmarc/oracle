@@ -1,0 +1,15 @@
+job: generic
+slots:
+  visual:
+    menu: visual_directions.json
+    required: true
+  engine:
+    menu: story_engines.json
+    required: true
+  constraint:
+    menu: constraints.json
+    required: true
+  hook:
+    menu: null
+    required: false
+    method_hint: 4

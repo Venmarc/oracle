@@ -1,0 +1,458 @@
+
+============================================================
+ORACLE BINDING
+job: website
+default_method: 3
+fallback_used: none
+locks:
+  - character=Flash the sloth from Zootopia
+  - deliverable=website that tells a story
+  - fact=he works at the DMV
+  - veto=no other named Zootopia leads
+draws:
+  visual: Legal exhibit: white, Times, exhibit stickers A–F, redaction bars used as composition
+  structure: Deck of 7 full-bleed cards. Visitor sees one. A control advances. No scroll
+  engine: Misheard instruction. The protagonist follows the wrong sentence with perfect diligence
+  constraint: Every section title is a timestamp. No other titles
+raw:
+  - visual index=9 menu=visual_directions.json method=3 source=secrets.randbelow
+  - structure index=2 menu=site_structures.json method=3 source=secrets.randbelow
+  - engine index=2 menu=story_engines.json method=3 source=secrets.randbelow
+  - constraint index=3 menu=constraints.json method=3 source=secrets.randbelow
+timestamp: 2026-09-08T16:23:49Z
+do_not_invent:
+  - extra pages
+  - extra brand values
+  - a second protagonist unless locked
+
+After this block, build. Do not reopen the draws.
+
+============================================================
+ORACLE BINDING
+job: website
+default_method: 3
+fallback_used: none
+locks:
+  - character=Flash the sloth from Zootopia
+  - deliverable=website that tells a story
+draws:
+  visual: Soviet sports poster: limited flat inks, monumental figures cropped oddly, one slogan bar
+  structure: Two-column court record: left is evidence, right is testimony, they disagree
+  engine: An inventory that will not add up. Someone is quietly removing one item per scene
+  constraint: Every section title is a timestamp. No other titles
+  hook: Influence of Arabic on other languages
+raw:
+  - visual index=7 menu=visual_directions.json method=3 source=secrets.randbelow
+  - structure index=8 menu=site_structures.json method=3 source=secrets.randbelow
+  - engine index=4 menu=story_engines.json method=3 source=secrets.randbelow
+  - constraint index=3 menu=constraints.json method=3 source=secrets.randbelow
+  - hook index=- menu=wikipedia-random method=4 source=wikipedia:8553019
+timestamp: 2026-09-08T16:23:52Z
+do_not_invent:
+  - extra pages
+  - extra brand values
+  - a second protagonist unless locked
+
+After this block, build. Do not reopen the draws.
+
+============================================================
+ORACLE BINDING
+job: website
+default_method: 3
+fallback_used: none
+locks:
+  - deliverable=multi-page navigable website
+  - effects=Lama Lama cursor trail, image distortion, button scramble, intro pixel grain
+  - constraint-from-human=no product meta; Unique Direction story; Pastries escalation
+  - source=lamalama.com techniques
+draws:
+  visual: Emergency wayfinding: yellow/black, arrows mandatory, words under 6 letters preferred
+  structure: Kiosk wizard: back/next only, 6 steps, cancel is labeled but does nothing
+  engine: A lost-and-found window. Each claimant is almost right
+  constraint: All images (or image descriptions) must be of objects, never faces
+raw:
+  - visual index=13 menu=visual_directions.json method=3 source=secrets.randbelow
+  - structure index=30 menu=site_structures.json method=3 source=secrets.randbelow
+  - engine index=6 menu=story_engines.json method=3 source=secrets.randbelow
+  - constraint index=9 menu=constraints.json method=3 source=secrets.randbelow
+timestamp: 2026-09-08T18:22:45Z
+do_not_invent:
+  - extra pages
+  - extra brand values
+  - a second protagonist unless locked
+
+After this block, build. Do not reopen the draws.
+
+============================================================
+ORACLE BINDING
+job: website
+default_method: 3
+fallback_used: none
+locks:
+  - visual: sulfur cutting-room wall, ground #1B1710, ink #F2E6A6, accent #E3B505, mute #9A8B4A, Syne/Manrope
+  - structure: Hero → Process → Result → Showcase rail then men → Reviews → FAQ accordion → Footer
+  - engine: introduce a man to menswear; craft, process, comfort, belonging
+  - constraint: lookbook not shop; cutter facts; no prices, map, invented partners; worktree only
+  - deliverable: HALDEN lookbook overlay copy and image energy
+draws:
+  visual: Duty-free catalog: glossy white, objects floating, prices in two currencies, no lifestyle scenes
+  structure: Dossier envelope: table of contents with classification stamps, 5 files
+  engine: A lost-and-found window. Each claimant is almost right
+  constraint: Night and day may not both appear. Pick the one the draw implies
+  hook: Belgian Indoor Athletics Championships
+  motion: Blink the current section marker. Nothing else blinks
+raw:
+  - visual index=35 menu=visual_directions.json method=3 source=secrets.randbelow
+  - structure index=17 menu=site_structures.json method=3 source=secrets.randbelow
+  - engine index=6 menu=story_engines.json method=3 source=secrets.randbelow
+  - constraint index=30 menu=constraints.json method=3 source=secrets.randbelow
+  - hook index=- menu=wikipedia-random method=4 source=wikipedia:56913652
+  - motion index=18 menu=motion_directions.json method=3 source=secrets.randbelow
+timestamp: 2026-09-08T18:28:45Z
+do_not_invent:
+  - extra pages
+  - extra brand values
+  - a second protagonist unless locked
+
+After this block, build. Do not reopen the draws.
+
+============================================================
+ORACLE BINDING
+job: website
+default_method: 3
+fallback_used: none
+locks:
+  - character=original Flash-inspired sloth (not named Flash); tropical Hawaii shirt; brown/black fur; chill surfer almost-closed cartoon eyes; little smile; head tracks cursor ~0.25x with lag
+  - deliverable=Pastries rep-sloth-footer story site for eucalyptus-products company
+  - interactions=bottom-right footer mascot; eucalyptus branches 3-6 leaves CSS sway; Apple Photos sticker strobe on hover + page dim; drag leaf to feed; happy laugh look; mouth opens; chew 1-3s then respawn; hover branch brightens face
+  - tech=CSS-first low resource; no Framer; E6320-aware; Unique Direction no meta
+  - footer_height_options=2/3 viewport OR 3/4 OR full — draw one
+  - brand=eucalyptus products company; invent name via oracle if not North Loft
+draws:
+  visual: Weather-map: isobars as layout, temperature colors as the only palette, legend in the corner
+  structure: Staircase: 8 landings. You may go down. Going up returns you two landings, never to the start
+  engine: A delivery that must arrive intact. Every scene is a new way the package could be delayed
+  constraint: Almost no dialogue. Time must be visible as a number or a clock on screen or on the page
+raw:
+  - visual index=19 menu=visual_directions.json method=3 source=secrets.randbelow
+  - structure index=28 menu=site_structures.json method=3 source=secrets.randbelow
+  - engine index=1 menu=story_engines.json method=3 source=secrets.randbelow
+  - constraint index=0 menu=constraints.json method=3 source=secrets.randbelow
+timestamp: 2026-09-08T19:15:59Z
+do_not_invent:
+  - extra pages
+  - extra brand values
+  - a second protagonist unless locked
+
+After this block, build. Do not reopen the draws.
+2026-09-08T19:16:00Z job=website method=3 sloth-1 Yellowcoil footer=3/4 visual=19 structure=28 engine=1 constraint=0
+
+============================================================
+ORACLE BINDING
+job: website
+method: 2 then 3
+fallback_used: none
+locks:
+  - deliverable=Pastries kiosk that recreates lamalama.com grain (FINDINGS.md). Same effects: intro L-cells, velocity trail, dusty warp, gel invert, click-spread, mono scramble. New story only.
+  - motion=FINDINGS compositor: raw-px u_vector, Y=innerHeight-clientY, FBO dpr*window/36, display drawLLLogo(..., length(vel), 0.0), photo gridLayer=compositor not flat color.
+  - no-product-meta=Unique Direction: no demo/test/prototype labels in UI.
+  - keep=research/FINDINGS.md and research/source; public/items photos.
+draws:
+  visual: bg #4802C3 / ink #A3C965 / grain #54A3C9; Libre Baskerville body, Archivo Narrow labels; 1-column full-bleed, left align, 40px margin, sparse type
+  structure: Voicemail stack: 5 recordings with durations. Play one at a time. Transcript optional
+  engine: Misheard instruction. The protagonist follows the wrong sentence with perfect diligence
+  constraint: The locked character is described only by what they handle, wear, or delay
+  motion: (locked — FINDINGS compositor)
+  hook: (none — not drawn)
+raw:
+  - visual method=2 alphanumeric=Q9zJdhSADV4wP9kxH4YCoqYHsHqTDMwwgH797Un8bshumCnnfA1GgM6JGiH6IQFR sha256=4802c34d9f8e54a3c965519ccbda42bb6cd0e5b541374a02e84186a9f41e60b1 type_index=15 menu=type_pairings.json layout_byte=9c bg_hex=4802c3 ink_scan_end_offset=16 grain_scan_end=12
+  - structure index=21 menu=site_structures.json method=3 source=secrets.randbelow
+  - engine index=2 menu=story_engines.json method=3 source=secrets.randbelow
+  - constraint index=23 menu=constraints.json method=3 source=secrets.randbelow
+timestamp: 2026-09-08T21:11:08Z
+do_not_invent:
+  - extra pages
+  - extra brand values
+  - a second protagonist unless locked
+
+After this block, build. Do not reopen the draws.
+
+
+============================================================
+ORACLE BINDING
+job: website
+default_method: 3
+fallback_used: none
+locks:
+  - page=intro-multiply
+  - component=intro L-cell pixel multiply grid 160→16
+  - motion=FINDINGS compositor: raw-px u_vector, Y=innerHeight-clientY, FBO dpr*window/36, display drawLLLogo(..., length(vel), 0.0)
+  - no-product-meta=Unique Direction: no demo/test/prototype labels in UI
+  - deliverable=one visitable full webpage, finished story-world
+draws:
+  visual: One-sheet movie poster that never shows the character's face, title treated as architecture
+  structure: Envelope / letter / enclosure: three layers. You open inward. Closing is optional
+  engine: A witness who only remembers the edges of frames, never the center
+  constraint: No hero image. The first screen is type and one control
+raw:
+  - visual index=22 menu=visual_directions.json method=3 source=secrets.randbelow
+  - structure index=35 menu=site_structures.json method=3 source=secrets.randbelow
+  - engine index=19 menu=story_engines.json method=3 source=secrets.randbelow
+  - constraint index=20 menu=constraints.json method=3 source=secrets.randbelow
+timestamp: 2026-09-08T21:47:09Z
+do_not_invent:
+  - extra pages
+  - extra brand values
+  - a second protagonist unless locked
+
+After this block, build. Do not reopen the draws.
+
+============================================================
+ORACLE BINDING
+job: website
+default_method: 3
+fallback_used: none
+locks:
+  - page=velocity-trail
+  - component=velocity-field L-cell trail (reveal, not particle chase)
+  - motion=FINDINGS compositor: raw-px u_vector, Y=innerHeight-clientY, FBO dpr*window/36, display drawLLLogo(..., length(vel), 0.0)
+  - no-product-meta=Unique Direction: no demo/test/prototype labels in UI
+  - deliverable=one visitable full webpage, finished story-world
+draws:
+  visual: Nail-salon price list: laminated, bilingual labels, clipart stars, neon pink on white
+  structure: Two-column court record: left is evidence, right is testimony, they disagree
+  engine: Bureaucratic delay is the antagonist. The plot is a wait that keeps changing its reason
+  constraint: Every section title is a timestamp. No other titles
+raw:
+  - visual index=33 menu=visual_directions.json method=3 source=secrets.randbelow
+  - structure index=8 menu=site_structures.json method=3 source=secrets.randbelow
+  - engine index=0 menu=story_engines.json method=3 source=secrets.randbelow
+  - constraint index=3 menu=constraints.json method=3 source=secrets.randbelow
+timestamp: 2026-09-08T21:47:09Z
+do_not_invent:
+  - extra pages
+  - extra brand values
+  - a second protagonist unless locked
+
+After this block, build. Do not reopen the draws.
+
+============================================================
+ORACLE BINDING
+job: website
+default_method: 3
+fallback_used: none
+locks:
+  - page=dusty-warp
+  - component=dusty photo warp (defaultHover==0: distort 1 invert 0 gap 0.3)
+  - motion=FINDINGS compositor: photo gridLayer=compositor, segment imageLayer, dusty flag table
+  - no-product-meta=Unique Direction: no demo/test/prototype labels in UI
+  - deliverable=one visitable full webpage, finished story-world
+draws:
+  visual: Server-room rack diagram: numbered U spaces, cable colors as section colors, warning labels intact
+  structure: Form that is the story: each field submitted reveals the next paragraph
+  engine: Misheard instruction. The protagonist follows the wrong sentence with perfect diligence
+  constraint: Do not mention the film, franchise, or studio unless those words are locked
+raw:
+  - visual index=44 menu=visual_directions.json method=3 source=secrets.randbelow
+  - structure index=7 menu=site_structures.json method=3 source=secrets.randbelow
+  - engine index=2 menu=story_engines.json method=3 source=secrets.randbelow
+  - constraint index=28 menu=constraints.json method=3 source=secrets.randbelow
+timestamp: 2026-09-08T21:47:10Z
+do_not_invent:
+  - extra pages
+  - extra brand values
+  - a second protagonist unless locked
+
+After this block, build. Do not reopen the draws.
+
+============================================================
+ORACLE BINDING
+job: website
+default_method: 3
+fallback_used: none
+locks:
+  - page=gel-click-spread
+  - component=gel invert warp + click-spread grain disc (defaultHover>0: distort 0 invert 1 gap 0.6; mousedown hover→1 in 3.75s power4.out, mouseup 1.25s)
+  - motion=FINDINGS compositor: photo gridLayer=compositor, segment imageLayer, gel flag table, click-spread stack-from-current
+  - no-product-meta=Unique Direction: no demo/test/prototype labels in UI
+  - deliverable=one visitable full webpage, finished story-world
+draws:
+  visual: Sports-broadcast lower third: bar at the bottom carries all titles, score-bug language, dark feed above
+  structure: Photo booth strip: 4 frames stacked, captions under each, one strip only
+  engine: A key that opens the wrong floor. The correct floor is mentioned once and ignored
+  constraint: Do not mention the film, franchise, or studio unless those words are locked
+raw:
+  - visual index=27 menu=visual_directions.json method=3 source=secrets.randbelow
+  - structure index=25 menu=site_structures.json method=3 source=secrets.randbelow
+  - engine index=16 menu=story_engines.json method=3 source=secrets.randbelow
+  - constraint index=28 menu=constraints.json method=3 source=secrets.randbelow
+timestamp: 2026-09-08T21:47:10Z
+do_not_invent:
+  - extra pages
+  - extra brand values
+  - a second protagonist unless locked
+
+After this block, build. Do not reopen the draws.
+
+============================================================
+ORACLE BINDING
+job: website
+default_method: 3
+fallback_used: none
+locks:
+  - page=cipher-scramble
+  - component=mono cipher scramble charset # # # # # $ * @ ( 0 % 1 > space→_
+  - motion=FINDINGS compositor lock retained for shared chrome; scramble two-stage power2.out
+  - no-product-meta=Unique Direction: no demo/test/prototype labels in UI
+  - deliverable=one visitable full webpage, finished story-world
+draws:
+  visual: 1996 personal homepage: tiled tiny background, Times New Roman, one animated gif max, visitor counter as a story device
+  structure: Checklist that is the plot: 9 boxes. Checking one reveals a consequence, not a reward
+  engine: A census of a place with one extra resident who does not show in mirrors or photos
+  constraint: No shadows, no gradients, no blur
+raw:
+  - visual index=2 menu=visual_directions.json method=3 source=secrets.randbelow
+  - structure index=22 menu=site_structures.json method=3 source=secrets.randbelow
+  - engine index=13 menu=story_engines.json method=3 source=secrets.randbelow
+  - constraint index=25 menu=constraints.json method=3 source=secrets.randbelow
+timestamp: 2026-09-08T21:47:10Z
+do_not_invent:
+  - extra pages
+  - extra brand values
+  - a second protagonist unless locked
+
+After this block, build. Do not reopen the draws.
+
+============================================================
+ORACLE BINDING
+job: website
+default_method: 3
+fallback_used: none
+locks:
+  - character=Derek, original 3D sloth mascot, Flash-like face and fur only, Hawaii shirt, chill dude
+  - deliverable=full presentable website page with interactive sloth footer as last piece
+  - fact=eucalyptus products company; 2D realistic eucalyptus leaves; 3D sloth; leaves sway and can be dragged to Derek
+  - veto=do not name him Flash; no Disney or Zootopia names on screen; no demo/example/test/prototype copy
+  - footer=Derek bottom-right; footer 2/3 to full viewport; head follows cursor slowly at ~0.25x; hover leaf brightens face and raises brow; drag leaf he opens mouth; drop he eats then leaf respawns
+  - take=2 of 3 independent design directions
+draws:
+  visual: Parish newsletter photocopied: crooked alignment, clip-art only, two columns, staple implied
+  structure: Checklist that is the plot: 9 boxes. Checking one reveals a consequence, not a reward
+  engine: A repair ticket that keeps being closed as 'user error'
+  constraint: Second person. The visitor is addressed as if they are late
+  hook: Peckham Boys
+  motion: Images load as if faxed: coarse, then slightly less coarse, then stop before sharp
+raw:
+  - visual index=14 menu=visual_directions.json method=3 source=secrets.randbelow
+  - structure index=22 menu=site_structures.json method=3 source=secrets.randbelow
+  - engine index=18 menu=story_engines.json method=3 source=secrets.randbelow
+  - constraint index=1 menu=constraints.json method=3 source=secrets.randbelow
+  - hook index=- menu=wikipedia-random method=4 source=wikipedia:19599681
+  - motion index=22 menu=motion_directions.json method=3 source=secrets.randbelow
+timestamp: 2026-09-09T01:30:31Z
+do_not_invent:
+  - extra pages
+  - extra brand values
+  - a second protagonist unless locked
+
+After this block, build. Do not reopen the draws.
+
+============================================================
+ORACLE BINDING
+job: website
+default_method: 3
+fallback_used: none
+locks:
+  - character=Derek, original 3D sloth mascot, Flash-like face and fur only, Hawaii shirt, chill dude
+  - deliverable=full presentable website page with interactive sloth footer as last piece
+  - fact=eucalyptus products company; 2D realistic eucalyptus leaves; 3D sloth; leaves sway and can be dragged to Derek
+  - veto=do not name him Flash; no Disney or Zootopia names on screen; no demo/example/test/prototype copy
+  - footer=Derek bottom-right; footer 2/3 to full viewport; head follows cursor slowly at ~0.25x; hover leaf brightens face and raises brow; drag leaf he opens mouth; drop he eats then leaf respawns
+  - take=1 of 3 independent design directions
+draws:
+  visual: Early-iOS utility: 1px borders, beveled buttons forbidden, grouped lists, system blue as the only accent
+  structure: Inbox parody: the story is a thread of 6 messages. Latest on top
+  engine: A queue. Cutting, holding, and being sent to the back are the only plot moves
+  constraint: Each page or section must reuse one sentence from the previous one, altered by a single word
+  hook: 2016 United States House of Representatives elections in West Virginia
+  motion: Split-flap: titles change by flipping. Content does not fade
+raw:
+  - visual index=41 menu=visual_directions.json method=3 source=secrets.randbelow
+  - structure index=5 menu=site_structures.json method=3 source=secrets.randbelow
+  - engine index=8 menu=story_engines.json method=3 source=secrets.randbelow
+  - constraint index=13 menu=constraints.json method=3 source=secrets.randbelow
+  - hook index=- menu=wikipedia-random method=4 source=wikipedia:46563641
+  - motion index=2 menu=motion_directions.json method=3 source=secrets.randbelow
+timestamp: 2026-09-09T01:30:31Z
+do_not_invent:
+  - extra pages
+  - extra brand values
+  - a second protagonist unless locked
+
+After this block, build. Do not reopen the draws.
+
+============================================================
+ORACLE BINDING
+job: website
+default_method: 3
+fallback_used: none
+locks:
+  - character=Derek, original 3D sloth mascot, Flash-like face and fur only, Hawaii shirt, chill dude
+  - deliverable=full presentable website page with interactive sloth footer as last piece
+  - fact=eucalyptus products company; 2D realistic eucalyptus leaves; 3D sloth; leaves sway and can be dragged to Derek
+  - veto=do not name him Flash; no Disney or Zootopia names on screen; no demo/example/test/prototype copy
+  - footer=Derek bottom-right; footer 2/3 to full viewport; head follows cursor slowly at ~0.25x; hover leaf brightens face and raises brow; drag leaf he opens mouth; drop he eats then leaf respawns
+  - take=3 of 3 independent design directions
+draws:
+  visual: Pharmacy leaflet: dense columns, warning boxes, a black-box notice used as a chapter break
+  structure: Glossary that becomes a story: 10 defined terms. Definitions contain the only narrative
+  engine: A key that opens the wrong floor. The correct floor is mentioned once and ignored
+  constraint: Second person. The visitor is addressed as if they are late
+  hook: Like a Man
+  motion: The only motion is a second hand on a CSS clock
+raw:
+  - visual index=29 menu=visual_directions.json method=3 source=secrets.randbelow
+  - structure index=33 menu=site_structures.json method=3 source=secrets.randbelow
+  - engine index=16 menu=story_engines.json method=3 source=secrets.randbelow
+  - constraint index=1 menu=constraints.json method=3 source=secrets.randbelow
+  - hook index=- menu=wikipedia-random method=4 source=wikipedia:74398530
+  - motion index=21 menu=motion_directions.json method=3 source=secrets.randbelow
+timestamp: 2026-09-09T01:30:33Z
+do_not_invent:
+  - extra pages
+  - extra brand values
+  - a second protagonist unless locked
+
+After this block, build. Do not reopen the draws.
+
+============================================================
+ORACLE BINDING
+job: website
+default_method: 3
+fallback_used: none
+locks:
+  - character=Derek, original 3D sloth, Flash-like face and fur only, Hawaii shirt, chill dude
+  - deliverable=fourth independent full website page with corrected sloth look engine in the footer
+  - fact=eucalyptus products; 2D realistic leaves 3-6 per branch; 3D sloth; drag leaves to Derek; he eats and they respawn
+  - veto=do not name him Flash; no Disney/Zootopia names on screen; no demo/example/test/prototype copy; do not reuse Tygart Queue, St Mildred's Still, or Compound worlds; do not load the new look atlas on the first three pages
+  - footer=Derek sits between bottom-center and bottom-right, not a true corner; eucalyptus on the other end; footer 2/3 to full viewport; slow head, faster eyes; no over-shoulder head turn
+  - engine-lock=Adi/Oobi polar sample + critically damped spring, applied to head and eyes, not eyes-only
+draws:
+  visual: Fish-market chalkboard: wet-look black, names and weights, sold-out strike-throughs as plot
+  structure: Single long scrollytelling page, no top nav, progress is a clock or meter only
+  engine: A rehearsal for an event that has already happened
+  constraint: If there is navigation, labels must be verbs
+  hook: Nephelium juglandifolium
+raw:
+  - visual index=40 menu=visual_directions.json method=3 source=secrets.randbelow
+  - structure index=0 menu=site_structures.json method=3 source=secrets.randbelow
+  - engine index=12 menu=story_engines.json method=3 source=secrets.randbelow
+  - constraint index=27 menu=constraints.json method=3 source=secrets.randbelow
+  - hook index=- menu=wikipedia-random method=4 source=wikipedia:16453033
+timestamp: 2026-09-11T03:51:27Z
+do_not_invent:
+  - extra pages
+  - extra brand values
+  - a second protagonist unless locked
+
+After this block, build. Do not reopen the draws.

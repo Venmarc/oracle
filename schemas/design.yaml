@@ -1,0 +1,14 @@
+job: design
+slots:
+  visual:
+    menu: visual_directions.json
+    required: true
+  constraint:
+    menu: constraints.json
+    required: true
+  type_pairing:
+    menu: type_pairings.json
+    required: true
+  motion:
+    menu: motion_directions.json
+    required: false

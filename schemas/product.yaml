@@ -1,0 +1,18 @@
+job: product
+slots:
+  engine:
+    menu: product_engines.json
+    required: true
+  visual:
+    menu: visual_directions.json
+    required: true
+  constraint:
+    menu: constraints.json
+    required: true
+  ugly_flaw:
+    menu: product_flaws.json
+    required: true
+  hook:
+    menu: null
+    required: false
+    method_hint: 4

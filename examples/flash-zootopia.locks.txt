@@ -1,0 +1,14 @@
+# Example lock file you can paste or keep next to a project.
+
+job: website
+default_method: 3
+slot_methods:
+  hook: 4
+
+locks:
+  - character: Flash the sloth from Zootopia
+  - fact: he works at the DMV
+  - deliverable: a website that tells a story
+  - veto: no other named Zootopia leads as co-protagonists
+  - audience: people who already know the joke; do not explain slowness
+  - scope: one page or one small structure from the site_structures menu

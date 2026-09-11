@@ -1,0 +1,21 @@
+job: story
+slots:
+  engine:
+    menu: story_engines.json
+    required: true
+  constraint:
+    menu: constraints.json
+    required: true
+  object:
+    menu: concrete_nouns.json
+    required: true
+  place_texture:
+    menu: place_textures.json
+    required: true
+  hook:
+    menu: null
+    required: false
+    method_hint: 4
+do_not_invent:
+  - a different protagonist than the lock
+  - a genre switch after BINDING

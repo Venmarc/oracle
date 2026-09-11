@@ -1,0 +1,28 @@
+job: website
+fills: the empty slots of a site after the human lock
+slots:
+  visual:
+    menu: visual_directions.json
+    required: true
+  structure:
+    menu: site_structures.json
+    required: true
+  engine:
+    menu: story_engines.json
+    required: true
+    note: even a marketing site gets a narrative engine
+  constraint:
+    menu: constraints.json
+    required: true
+  hook:
+    menu: null
+    required: false
+    method_hint: 4
+    note: live page title, headline, or hashed fact; skip if human said no world hook
+  motion:
+    menu: motion_directions.json
+    required: false
+do_not_invent:
+  - extra pages
+  - extra brand values
+  - a second protagonist unless locked
